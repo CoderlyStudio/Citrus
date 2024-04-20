@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB135B542BCDCB29009C88E7 /* CitrusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B532BCDCB29009C88E7 /* CitrusApp.swift */; };
+		AB135B562BCDCB29009C88E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B552BCDCB29009C88E7 /* ContentView.swift */; };
+		AB135B582BCDCB2B009C88E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB135B572BCDCB2B009C88E7 /* Assets.xcassets */; };
+		AB135B5C2BCDCB2B009C88E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB135B5B2BCDCB2B009C88E7 /* Preview Assets.xcassets */; };
+		AB135B672BCDCC8D009C88E7 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B662BCDCC8D009C88E7 /* AppIcon.swift */; };
+		AB135B692BCDCC98009C88E7 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B682BCDCC98009C88E7 /* IconView.swift */; };
+		AB135B6B2BCDCCA7009C88E7 /* IconImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B6A2BCDCCA7009C88E7 /* IconImageView.swift */; };
+		AB135B6D2BCDCCB6009C88E7 /* CitrusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B6C2BCDCCB6009C88E7 /* CitrusViewModel.swift */; };
+		AB135B6F2BCDCCCD009C88E7 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB135B6E2BCDCCCD009C88E7 /* ColorExtensions.swift */; };
+		AB135B732BCDD030009C88E7 /* Lemon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB135B722BCDD030009C88E7 /* Lemon-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB135B502BCDCB29009C88E7 /* Citrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB135B532BCDCB29009C88E7 /* CitrusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitrusApp.swift; sourceTree = "<group>"; };
+		AB135B552BCDCB29009C88E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB135B572BCDCB2B009C88E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB135B592BCDCB2B009C88E7 /* Citrus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Citrus.entitlements; sourceTree = "<group>"; };
+		AB135B5B2BCDCB2B009C88E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB135B662BCDCC8D009C88E7 /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		AB135B682BCDCC98009C88E7 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		AB135B6A2BCDCCA7009C88E7 /* IconImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconImageView.swift; sourceTree = "<group>"; };
+		AB135B6C2BCDCCB6009C88E7 /* CitrusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitrusViewModel.swift; sourceTree = "<group>"; };
+		AB135B6E2BCDCCCD009C88E7 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		AB135B722BCDD030009C88E7 /* Lemon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemon-Regular.ttf"; sourceTree = "<group>"; };
+		AB135B742BCDD04B009C88E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB135B4D2BCDCB29009C88E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB135B472BCDCB29009C88E7 = {
+			isa = PBXGroup;
+			children = (
+				AB135B522BCDCB29009C88E7 /* Citrus */,
+				AB135B512BCDCB29009C88E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB135B512BCDCB29009C88E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B502BCDCB29009C88E7 /* Citrus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB135B522BCDCB29009C88E7 /* Citrus */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B742BCDD04B009C88E7 /* Info.plist */,
+				AB135B532BCDCB29009C88E7 /* CitrusApp.swift */,
+				AB135B622BCDCB36009C88E7 /* Models */,
+				AB135B632BCDCB40009C88E7 /* Views */,
+				AB135B642BCDCB4C009C88E7 /* View Models */,
+				AB135B652BCDCB5B009C88E7 /* Extensions */,
+				AB135B712BCDD00C009C88E7 /* Fonts */,
+				AB135B572BCDCB2B009C88E7 /* Assets.xcassets */,
+				AB135B592BCDCB2B009C88E7 /* Citrus.entitlements */,
+				AB135B5A2BCDCB2B009C88E7 /* Preview Content */,
+			);
+			path = Citrus;
+			sourceTree = "<group>";
+		};
+		AB135B5A2BCDCB2B009C88E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B5B2BCDCB2B009C88E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB135B622BCDCB36009C88E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B662BCDCC8D009C88E7 /* AppIcon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB135B632BCDCB40009C88E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B552BCDCB29009C88E7 /* ContentView.swift */,
+				AB135B682BCDCC98009C88E7 /* IconView.swift */,
+				AB135B6A2BCDCCA7009C88E7 /* IconImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB135B642BCDCB4C009C88E7 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B6C2BCDCCB6009C88E7 /* CitrusViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		AB135B652BCDCB5B009C88E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B6E2BCDCCCD009C88E7 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB135B712BCDD00C009C88E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB135B722BCDD030009C88E7 /* Lemon-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB135B4F2BCDCB29009C88E7 /* Citrus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB135B5F2BCDCB2B009C88E7 /* Build configuration list for PBXNativeTarget "Citrus" */;
+			buildPhases = (
+				AB135B4C2BCDCB29009C88E7 /* Sources */,
+				AB135B4D2BCDCB29009C88E7 /* Frameworks */,
+				AB135B4E2BCDCB29009C88E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Citrus;
+			productName = Citrus;
+			productReference = AB135B502BCDCB29009C88E7 /* Citrus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB135B482BCDCB29009C88E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AB135B4F2BCDCB29009C88E7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AB135B4B2BCDCB29009C88E7 /* Build configuration list for PBXProject "Citrus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB135B472BCDCB29009C88E7;
+			productRefGroup = AB135B512BCDCB29009C88E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB135B4F2BCDCB29009C88E7 /* Citrus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB135B4E2BCDCB29009C88E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB135B5C2BCDCB2B009C88E7 /* Preview Assets.xcassets in Resources */,
+				AB135B582BCDCB2B009C88E7 /* Assets.xcassets in Resources */,
+				AB135B732BCDD030009C88E7 /* Lemon-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB135B4C2BCDCB29009C88E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB135B562BCDCB29009C88E7 /* ContentView.swift in Sources */,
+				AB135B6B2BCDCCA7009C88E7 /* IconImageView.swift in Sources */,
+				AB135B6D2BCDCCB6009C88E7 /* CitrusViewModel.swift in Sources */,
+				AB135B692BCDCC98009C88E7 /* IconView.swift in Sources */,
+				AB135B542BCDCB29009C88E7 /* CitrusApp.swift in Sources */,
+				AB135B672BCDCC8D009C88E7 /* AppIcon.swift in Sources */,
+				AB135B6F2BCDCCCD009C88E7 /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB135B5D2BCDCB2B009C88E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB135B5E2BCDCB2B009C88E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AB135B602BCDCB2B009C88E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Bergamot Grapefruit Lemon Lime Orange Tangerine";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Default;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Citrus/Citrus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Citrus/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GSVA9WBVH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Citrus/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderlyStudio.Citrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB135B612BCDCB2B009C88E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Bergamot Grapefruit Lemon Lime Orange Tangerine";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Default;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Citrus/Citrus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Citrus/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GSVA9WBVH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Citrus/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoderlyStudio.Citrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB135B4B2BCDCB29009C88E7 /* Build configuration list for PBXProject "Citrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB135B5D2BCDCB2B009C88E7 /* Debug */,
+				AB135B5E2BCDCB2B009C88E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB135B5F2BCDCB2B009C88E7 /* Build configuration list for PBXNativeTarget "Citrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB135B602BCDCB2B009C88E7 /* Debug */,
+				AB135B612BCDCB2B009C88E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB135B482BCDCB29009C88E7 /* Project object */;
+}
